@@ -155,13 +155,31 @@
 }
 
 .bg-img-1 {
-	background-image: url(../images/slider/main.jpg);
+	background-image: 
+	 linear-gradient(
+      rgba(3,12,34, 0.5), 
+      rgba(3,12,34, 0.5)
+    ),
+	url(../img/slider/main9.jpg);
 }
 .bg-img-2 {
-	background-image: url(../img/slider/affinity.jpeg);
+	background-image:  
+	 linear-gradient(
+      rgba(3,12,34, 0.5), 
+      rgba(3,12,34, 0.5)
+    ),
+
+	url(../img/slider/main2.jpg);
 }
 .bg-img-3 {
-	background-image: url(../img/slider/cinelli.jpeg);
+	background-image: 
+	 linear-gradient(
+      rgba(3,12,34, 0.5), 
+      rgba(3,12,34, 0.5)
+    ),
+
+ 
+	url(../img/slider/main1.jpg);
 }
 
 
