@@ -3,7 +3,7 @@
 Primary style
 
 -------------------------------- */
-html * {
+/*html * {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -13,8 +13,8 @@ html * {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
-body {
+*/
+#fullproject body {
   font-size: 100%;
   font-family: "Droid Serif", serif;
   color: #7f8c97;
@@ -59,18 +59,20 @@ Modules - reusable parts of our design
 Main components 
 
 -------------------------------- */
-header {
-  /*height: 200px;
-  line-height: 200px;*/
+.header {
+  height: 200px;
+  line-height: 200px;
   text-align: center;
   background: #303e49;
 }
-header h1 {
-
-  color: white;
-  font-size: 18px;
+.header h1 {
+  color: #fff;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
   font-size: 1.125rem;
 }
+
 @media only screen and (min-width: 1170px) {
   header {
     /*height: 300px;*/
@@ -90,7 +92,7 @@ header h1 {
 #cd-timeline {
   position: relative;
   padding: 2em 0;
-  margin-top: 100em;
+  margin-top: em;
   margin-bottom: 2em;
 }
 #cd-timeline::before {
