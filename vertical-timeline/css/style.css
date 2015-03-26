@@ -18,7 +18,7 @@ body {
   font-size: 100%;
   font-family: "Droid Serif", serif;
   color: #7f8c97;
-  background-color: #e9f0f5;
+  background-color: #fff;
 }
 
 a {
@@ -66,6 +66,7 @@ header {
   background: #303e49;
 }
 header h1 {
+
   color: white;
   font-size: 18px;
   font-size: 1.125rem;
@@ -79,7 +80,11 @@ header h1 {
     font-size: 24px;
     font-size: 1.5rem;
   }
+
+.cd-timeline-content h2{
+  text-decoration: none;
 }
+
 
 #cd-timeline {
   position: relative;
@@ -103,6 +108,7 @@ header h1 {
     margin-bottom: 3em;
   }
   #cd-timeline::before {
+
     left: 50%;
     margin-left: -2px;
   }
